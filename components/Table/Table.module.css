@@ -1,0 +1,20 @@
+.container {
+}
+
+.container table {
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+  border-collapse: collapse;
+  text-align: center;
+}
+.container th {
+  border: 1px solid #a1a1a1;
+  background: gray;
+  padding: 10px;
+  color: white;
+}
+.container td {
+  padding: 8px;
+  border: 1px solid #a1a1a1;
+}

@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid #a1a1a1;
+  border-radius: 8px;
+  /* overflow: hidden; */
+}
+.topBar {
+  background: rgb(233, 233, 233);
+  padding: 10px 16px;
+  border-bottom: 1px solid #a1a1a1;
+  font-weight: 600;
+  border-radius: 8px 8px 0px 0px;
+}
+.tableWrapper {
+  padding: 10px 16px;
+  overflow-x: auto;
+}
+@media (max-width: 600px) {
+  .tableWrapper {
+    padding: 10px;
+  }
+}

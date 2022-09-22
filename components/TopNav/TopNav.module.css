@@ -1,0 +1,15 @@
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+  border-bottom: 1px solid #a1a1a1;
+  font-size: 24px;
+}
+@media (max-width: 600px) {
+  .topNav {
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+  }
+}
